@@ -5,7 +5,7 @@ class box{
 	int breadth;
 	int height;
 	box(){
-		width=-1;
+	  width=-1;
 	  breadth=-1;
 	  height=-1;
 	}
@@ -22,8 +22,8 @@ class box{
 class weightbox extends box{
 	double weight;
 	weightbox(int w,int b,int h,double wt){
-	super(w,b,h);//here super used to call superclass constructor
-	weight=wt;
+	   super(w,b,h);
+	   weight=wt;
 	}
 
 }

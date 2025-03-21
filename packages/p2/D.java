@@ -1,12 +1,12 @@
-
 package p2;
-class D extends p1.A{
-	
-D(){
-   //System.out.println("x="+x);
-   //System.out.println("y="+y);
-   System.out.println("z="+z);
-   System.out.println("q="+q);
-   }
 
+import p1.A; // you need this if you use class A
+
+public class D extends A {
+    public D() {
+        System.out.println("Inside D");
+       // System.out.println("x=" + x); // OK (package-private if p2 in same package; if not, needs to be public/protected)
+        System.out.println("z=" + z); // OK if protected
+        System.out.println("q=" + q); // OK if public
+    }
 }

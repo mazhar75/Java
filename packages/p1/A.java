@@ -1,6 +1,6 @@
 
 
-package Desktop [.p1];
+package p1;
 public class A{
 	
 	int x=1;

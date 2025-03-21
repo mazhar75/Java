@@ -1,5 +1,5 @@
 
-package Desktop [.p1];
+package p1;
 class B extends A{
 	B(){
    System.out.println("x="+x);
